@@ -1,0 +1,159 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    position:fixed;
+    width: 100%;
+    transition: top 0.3s ease-in-out;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #444;
+    color: #fff;
+}
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+.about-content,
+.scam-types-content,
+.avoidance-content,
+.podcast-content,
+.contact-content {
+    text-align: center;
+}
+/* mørk modus styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+body.dark-mode header {
+    background-color: #222;
+}
+body.dark-mode nav ul li a {
+    color: #fff;
+}
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode p {
+    color: #fff;
+}
+body.dark-mode section {
+    background-color: #444;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s;
+}
+/* podcast */
+.podcast-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.podcast-section.dark-mode {
+    background-color: #444;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+/* podcast overskrivt og tekst */
+.podcast-title,
+.podcast-description,
+.episode h3,
+.episode p {
+    text-align: center;
+    color: #333;
+    transition: color 0.3s;
+}
+/* Dark Mode tekst Podcast */
+body.dark-mode .podcast-title,
+body.dark-mode .podcast-description,
+body.dark-mode .episode h3,
+body.dark-mode .episode p {
+    color: #fff; 
+}
+/* gjem innhold */
+.hidden-content {
+    display: none;
+  }
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav ul li a:hover {
+    color: #dc143c;
+  }
+  nav ul li button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color:#dc143c;
+    color: #222;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  nav ul li button:hover {
+    background-color: #242424;
+    color: #fff;
+  }
+/* padding til de forskjellige sidene (siden at position absolute gjør at man ikke ser det som er under*/
+.podcast-content {
+    padding-top: 40px;
+}
+.scam-types-section {
+    padding-top: 70px;
+}
+main {
+    padding: 60px;
+}
