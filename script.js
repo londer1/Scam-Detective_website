@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (prevScrollpos > currentScrollPos) {
             header.style.top = '0';
         } else {
-            header.style.top = '-100px'; // Adjust this value as needed for the header to disappear
+            header.style.top = '-100px';
         }
         prevScrollpos = currentScrollPos;
     };
