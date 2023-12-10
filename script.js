@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         body.classList.remove('hidden-content');
     }
 });
+// gjør at når man scroller nedover skal den gjemme headeren og vise den når man scroller oppover
 document.addEventListener('DOMContentLoaded', function() {
     const header = document.querySelector('header');
     let prevScrollpos = window.pageYOffset;

@@ -13,13 +13,6 @@ body{
     width: 100%;
     height: 100%;
 }
-body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
 header {
     background-color: #222;
     color: #fff;
@@ -68,7 +61,7 @@ footer {
 }
 /* mørk modus styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -81,6 +74,14 @@ body.dark-mode {
 }
 body.dark-mode header {
     background-color: #222;
+}
+body.dark-mode footer {
+    background-color: #444;
+    color: #fff;
+}
+body:not(.dark-mode) footer {
+    background-color: #fff;
+    color: #444;
 }
 body.dark-mode nav ul li a {
     color: #fff;
@@ -159,7 +160,11 @@ nav ul li a {
     padding-top: 40px;
 }
 .scam-types-section {
-    padding-top: 70px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    text-align: start;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 main {
     padding: 60px;
@@ -190,29 +195,17 @@ img{
         width: 25px;
         height: 25px;
         margin-inline-end: 1rem;
+}
+@media (max-width: 650px){
+    body{
+        display: block;
+        font-size: 80%;
+    }
+    p {
+        position: relative;
+        margin: -3rem 0 2rem 1rem;
+        padding: 1rem;
+        background: rgba(white, 0.8)
     }
 }
- /* html {
-    width: auto;
-    height: auto;
-    transform-origin: 0 0;
-    transform: scale(1.33);
-    overflow-x: hidden;
 }
-
-body {
- overflow-x: hidden;
-} */
-
-
-
-
-/* .image-in-text {
-    align-items: center;
-    gap: 20px;
-}
-    .image-with-text img {
-        max-width: 200px;
-        height: auto;
-    }
-     */
