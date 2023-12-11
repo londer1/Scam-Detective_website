@@ -165,7 +165,15 @@ nav ul li button:hover {
     max-width: 1300px;
     margin: 0 auto;
     margin-block-end:120px;
-    margin-block-start: ;
+}
+.types-section {
+    padding-top: 90px;
+    padding-bottom: 40px;
+    text-align: start;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-block-end:120px;
+
 }
 main {
     padding: 60px;
@@ -186,8 +194,29 @@ img{
     line-height: 1.6;
     font-size: 1rem;
 }
+.scam-types-content h2 {
+    line-height: 1.6;
+    font-size: 3rem;
+}
+/* Stylingen til de forkjellige scam typene */
+.types-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.types-content p {
+    line-height: 1.6;
+    font-size: 1rem;
+}
+.types-content h2 {
+    line-height: 1.6;
+    font-size: 3rem;
+}
 @media only screen and (max-width: 768px) {
     .scam-types-content {
+        max-width: 90%;
+        padding: 0 10px;
+    }
+    .types-content {
         max-width: 90%;
         padding: 0 10px;
     }
@@ -237,6 +266,10 @@ img{
 }
 .scam-types-title,
 .scam-types-content p {
+    margin-top: 30px;
+}
+.types-title,
+.types-content p {
     margin-top: 30px;
 }
 audio   {
