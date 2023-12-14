@@ -168,12 +168,12 @@ nav ul li button:hover {
 }
 .types-section {
     padding-top: 90px;
-    padding-bottom: 40px;
-    text-align: start;
+    padding-bottom: 70px;
+    padding-left: 90px;
     max-width: 1300px;
     margin: 0 auto;
     margin-block-end:120px;
-
+    
 }
 main {
     padding: 60px;
@@ -270,7 +270,7 @@ img{
 }
 .types-title,
 .types-content p {
-    margin-top: 30px;
+
 }
 audio   {
     display: block;
